@@ -1,0 +1,3 @@
+bintropy==1.3.2
+dnspython==2.2.1
+whois21==1.1.2

@@ -23,3 +23,8 @@ user@host $ bg %<job_number>
 [<job_number>]  - <PID> continued  sudo ./procsent.py
 user@host $ disown %<job_number>
 ```
+
+
+# Related Projects
+1. [Dataset of Packed ELF files](https://github.com/packing-box/dataset-packed-elf)
+2. [Bintropy](https://github.com/packing-box/bintropy)

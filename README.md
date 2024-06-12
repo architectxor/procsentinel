@@ -15,12 +15,8 @@ Result are written in separate files in the `tmp/procsent`:
 
 ## :star: How to run it
 ```
-user@host $ sudo ./procsent.py
-*Ctrl+Z*
-^Z
-[<job_number>] + <PID> suspended sudo ./procsent.py
-user@host $ bg %<job_number>
-[<job_number>]  - <PID> continued  sudo ./procsent.py
+user@host $ sudo ./procsent.py &
+[<job_number>] + <PID> sudo ./procsent.py
 user@host $ disown %<job_number>
 ```
 
